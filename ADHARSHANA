@@ -1,0 +1,50 @@
+GROUP 2:
+1,POSITIVE/NEGATIVE/ZERO:
+PROGRAM:
+n=int(input("enter a number:"))
+if(n>0):
+    print("number is positive")
+elif(n<0):
+    print("number is negative")
+else:
+    print("number is zero")
+output:
+enter a number:34
+number is positive
+
+. 2.Read a character from the user change into upper/lower:
+Program:
+ch=input("enter a character")
+if(ch>='A' and ch<='Z'):
+    s=ch.lower()
+    print("you entered upper case")
+elif (ch>='a' and ch<='z'):
+    print("you entered lower case")
+    s=ch.upper()
+else:
+    print("enter valid character")
+        
+     
+output:
+enter a character:A
+you entered upper case
+
+3.
+
+Program:
+ch=input("enter a character")
+if(ch>='A' and ch<='Z'):
+    s=ch.lower()
+    print("you entered upper case")
+elif (ch>='a' and ch<='z'):
+    print("you entered lower case")
+    s=ch.upper()
+else:
+    print("enter valid character")
+        
+        
+    output:
+enter the gender:male
+enter the salary45000
+bonus is: 4500.0
+total salary is: 49500.0
